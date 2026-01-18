@@ -122,7 +122,7 @@ class LoginManager:
         self,
         user_id: str,
         password: str,
-        max_retries: int = 1,
+        max_retries: int = 3,
         progress_callback: Optional[Callable] = None,
     ) -> dict:
         """
